@@ -1,0 +1,39 @@
+# [Platinum V] 전화선 - 6132 
+
+[문제 링크](https://acmicpc.net/problem/6132) 
+
+### 성능 요약
+
+메모리: 26088 KB, 시간: 88 ms
+
+### 분류
+
+다이나믹 프로그래밍
+
+### 제출 일자
+
+2024년 06월 18일 17:42:32
+
+### 문제 설명
+
+<p>Farmer John's cows are getting restless about their poor telephone service; they want FJ to replace the old telephone wire with new, more efficient wire. The new wiring will utilize N (2 <= N <= 100,000) already-installed telephone poles, each with some height_i meters (1 <= height_i <= 100). The new wire will connect the tops of each pair of adjacent poles and will incur a penalty cost C * the two poles' height difference for each section of wire where the poles are of different heights (1 <= C <= 100). The poles, of course, are in a certain sequence and can not be moved.</p>
+
+<p>Farmer John figures that if he makes some poles taller he can reduce his penalties, though with some other additional cost. He can add an integer X number of meters to a pole at a cost of X^2.</p>
+
+<p>Help Farmer John determine the cheapest combination of growing pole heights and connecting wire so that the cows can get their new and improved service.</p>
+
+### 입력 
+
+ <ul>
+	<li>Line 1: Two space-separated integers: N and C</li>
+	<li>Lines 2..N+1: Line i+1 contains a single integer: height_i</li>
+</ul>
+
+<p> </p>
+
+### 출력 
+
+ <ul>
+	<li>Line 1: The minimum total amount of money that it will cost Farmer John to attach the new telephone wire.</li>
+</ul>
+

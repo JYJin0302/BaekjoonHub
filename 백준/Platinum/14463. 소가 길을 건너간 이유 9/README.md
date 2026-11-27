@@ -1,0 +1,32 @@
+# [Platinum IV] 소가 길을 건너간 이유 9 - 14463 
+
+[문제 링크](https://acmicpc.net/problem/14463) 
+
+### 성능 요약
+
+메모리: 4264 KB, 시간: 48 ms
+
+### 분류
+
+자료 구조, 세그먼트 트리
+
+### 제출 일자
+
+2020년 10월 24일 11:31:48
+
+### 문제 설명
+
+<p>The layout of Farmer John's farm is quite peculiar, with a large circular road running around the perimeter of the main field on which his cows graze during the day. Every morning, the cows cross this road on their way towards the field, and every evening they all cross again as they leave the field and return to the barn.</p>
+
+<p>As we know, cows are creatures of habit, and they each cross the road the same way every day. Each cow crosses into the field at a different point from where she crosses out of the field, and all of these crossing points are distinct from each-other. Farmer John owns NN cows, conveniently identified with the integer IDs 1…N, so there are precisely 2N2N crossing points around the road. Farmer John records these crossing points concisely by scanning around the circle clockwise, writing down the ID of the cow for each crossing point, ultimately forming a sequence with 2N numbers in which each number appears exactly twice. He does not record which crossing points are entry points and which are exit points.</p>
+
+<p>Looking at his map of crossing points, Farmer John is curious how many times various pairs of cows might cross paths during the day. He calls a pair of cows (a,b) a "crossing" pair if cow a's path from entry to exit must cross cow b's path from entry to exit. Please help Farmer John count the total number of crossing pairs.</p>
+
+### 입력 
+
+ <p>The first line of input contains N (1 ≤ N ≤ 50,000), and the next 2N lines describe the cow IDs for the sequence of entry and exit points around the field.</p>
+
+### 출력 
+
+ <p>Please print the total number of crossing pairs.</p>
+

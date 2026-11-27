@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+#define mp make_pair
+#define x first
+#define y second
+#define all(x) x.begin(), x.end()
+
+void solve(){
+
+    int n;
+    cin >> n;
+
+    if (n == 2) cout << "kang\n";
+    else cout << "chan\n";
+
+}
+
+int main(){
+    std::ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
+    
+    int t = 1;
+    cin >> t;
+    while(t--) solve();
+
+    return 0;
+}
